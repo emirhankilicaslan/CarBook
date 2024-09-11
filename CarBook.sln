@@ -4,6 +4,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8F71381E-4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBook.Domain", "CarBook.Domain\CarBook.Domain.csproj", "{EFA58C5A-1307-4AAA-BE99-42F268B1007E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A3882334-4112-43ED-A732-01620E02C92F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBook.Persistence", "CarBook.Persistence\CarBook.Persistence.csproj", "{3B6856A6-6F22-4568-B9EE-A8B6E9469D28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{7BA87A23-A115-4B98-A2E2-D2D3154AB87F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBook.WebApi", "CarBook.WebApi\CarBook.WebApi.csproj", "{8A38D54F-DC19-4B85-AB7D-36DAAFA988CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBook.Application", "CarBook.Application\CarBook.Application.csproj", "{DBF0E181-C6F5-49CF-AE9E-033C0535F161}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -11,11 +21,26 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EFA58C5A-1307-4AAA-BE99-42F268B1007E} = {8F71381E-461A-4439-A431-60C37DDF8735}
+		{3B6856A6-6F22-4568-B9EE-A8B6E9469D28} = {A3882334-4112-43ED-A732-01620E02C92F}
+		{8A38D54F-DC19-4B85-AB7D-36DAAFA988CE} = {7BA87A23-A115-4B98-A2E2-D2D3154AB87F}
+		{DBF0E181-C6F5-49CF-AE9E-033C0535F161} = {8F71381E-461A-4439-A431-60C37DDF8735}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EFA58C5A-1307-4AAA-BE99-42F268B1007E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EFA58C5A-1307-4AAA-BE99-42F268B1007E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFA58C5A-1307-4AAA-BE99-42F268B1007E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFA58C5A-1307-4AAA-BE99-42F268B1007E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B6856A6-6F22-4568-B9EE-A8B6E9469D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B6856A6-6F22-4568-B9EE-A8B6E9469D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B6856A6-6F22-4568-B9EE-A8B6E9469D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B6856A6-6F22-4568-B9EE-A8B6E9469D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A38D54F-DC19-4B85-AB7D-36DAAFA988CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A38D54F-DC19-4B85-AB7D-36DAAFA988CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A38D54F-DC19-4B85-AB7D-36DAAFA988CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A38D54F-DC19-4B85-AB7D-36DAAFA988CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF0E181-C6F5-49CF-AE9E-033C0535F161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF0E181-C6F5-49CF-AE9E-033C0535F161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF0E181-C6F5-49CF-AE9E-033C0535F161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF0E181-C6F5-49CF-AE9E-033C0535F161}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
